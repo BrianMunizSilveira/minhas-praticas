@@ -1,20 +1,28 @@
+:root {
+    --cor1: #000000;
+    --cor2: #14213d;
+    --cor3: #fca311;
+    --cor4: #e5e5e5;
+    --cor5: #006494;
+}
+
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #025159;
+    background-color: var(--cor1);
 }
 
 header {
-    background-color: #010440;
-    color: #fff;
+    background-color: var(--cor2);
     text-align: initial;
     padding: 20px 0;
 }
 
 header h1 {
     margin: 0;
+    color: var(--cor3);
 }
 
 main {
@@ -22,17 +30,16 @@ main {
 }
 
 footer {
-    background-color: #010440;
-    color: #fff;
+    background-color: var(--cor2);
+    color: var(--cor4);
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
 
 a {
-    color: #fff;
+    color: var(--cor5);
 }
 
 /* Estilos específicos dos exercícios */
@@ -43,17 +50,17 @@ a {
 }
 
 .exercise {
-    background-color: #010326;
-    color: #7C05F2;
+    background-color: var(--cor2);
+    color: var(--cor4);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.exercise h2 {
-    margin-top: 0;
+.exercise > h2 {
+    color: var(--cor3);
 }
 
-p {
-    color: #F20587;
+.exercise h2 {
+    margin-top: 0;
 }
