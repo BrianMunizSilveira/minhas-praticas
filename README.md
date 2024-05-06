@@ -1,4 +1,4 @@
-# :rocket: Praticas
+# :rocket: Práticas
 
 ## :stars: Sobre
 
