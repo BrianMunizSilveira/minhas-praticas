@@ -23,6 +23,7 @@ header {
 header h1 {
     margin: 0;
     color: var(--cor3);
+    text-align: center;
 }
 
 main {
@@ -43,11 +44,11 @@ a {
 }
 
 /* Estilos específicos dos exercícios */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 20px;
+div {
+    margin: 10px;
+    text-align: center;
 }
+
 
 .exercise {
     background-color: var(--cor2);

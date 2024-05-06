@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo</title>
+    <style>
+        @charset "UTF-8";
+        
+        @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@500&display=swap');
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('wallpaper005.jpg');
+        }
+
+        :root{
+            --fonte0: "Kode Mono", monospace;
+
+            --cor-r1: #10002B;
+            --cor-r2: #240046;
+            --cor-r3: #3C096C;
+            --cor-r4: #5A189A;
+            --cor-r5: #7B2CBF;
+            --cor-r6: #9D4EDD;
+            --cor-r7: #C77DFF;
+            --cor-r8: #E0AAFF;
+
+            --cor-v1: #081C15;
+            --cor-v2: #1B4332;
+            --cor-v3: #2D6A4F;
+            --cor-v4: #40916C;
+            --cor-v5: #52B788;
+            --cor-v6: #74C69D;
+            --cor-v7: #95D5B2;
+            --cor-v8: #B7E4C7;
+            --cor-v9: #D8F3DC;
+
+            --cor-a1:  #0D47A1;
+            --cor-a2:  #1565C0;
+            --cor-a3:  #1976D2;
+            --cor-a4:  #1E88E5;
+            --cor-a5:  #2196F3;
+            --cor-a6:  #42A5F5;
+            --cor-a7:  #64B5F6;
+            --cor-a8:  #90CAF9;
+            --cor-a9:  #BBDEFB;
+            --cor-a10: #E3F2FD;
+        }
+
+        header > h1 {
+            font-family: var(--fonte0);
+            text-align: center;
+            font-style: normal;
+            margin: 40px;
+        }
+        
+        section {
+            margin: 5px;
+            min-width: 400px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        div.quadrado {
+            width: 300px;
+            height: 300px;
+            margin: 5px;
+            border: 3px solid black;
+            display: inline-block;
+        }
+
+        div#q1 {
+            background-image: linear-gradient(to top, var(--cor-r1), var(--cor-r8))
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to top, var(--cor-a1), var(--cor-a10));
+        }
+
+        div#q3 {
+            background-image: linear-gradient(to top, var(--cor-v1), var(--cor-v9));
+        }
+
+        div#q4 {
+            background-image: url('artiom-vallat-rU_BvpGC8nQ-unsplash.jpg');
+        }
+
+        div#q5 {
+            background-image: url('pawel-czerwinski--vcE6c-UP9E-unsplash.jpg');
+        }
+
+        div#q6 {
+            background-image: url('lawrence-kayku-ZVKr8wADhpc-unsplash.jpg');
+        }
+
+        footer {
+            padding: 10px;
+            background-color: #333;
+            text-align: center;
+            color: #fff;
+        }
+
+        footer  p {
+            margin: 10px;
+            display: inline;
+            font-family: "Kode Mono", monospace;
+        }
+
+        .footer-1 {
+            color: var(--cor-r8);
+            text-decoration: none;
+        }
+
+        .footer-1:hover {
+            color: var(--cor-r5);
+            transition-duration: 0.5s;
+            text-decoration: underline;
+        }
+
+        
+        .footer-2 {
+            color: var(--cor-a6);
+            text-decoration: none;
+        }
+
+        .footer-2:hover {
+            color: var(--cor-a2);
+            transition-duration: 0.5s;
+            text-decoration: underline;
+        }
+
+        
+        .footer-3 {
+            color: var(--cor-v5);
+            text-decoration: none;
+        }
+
+        .footer-3:hover {
+            color: var(--cor-v3);
+            transition-duration: 0.5s;
+            text-decoration: underline;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            div.quadrado {
+                width: 80%;
+            }
+
+            footer {
+                width: 100%;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Aplicando conhecimento</h1>
+        </header>
+
+        <section>
+            <div class="quadrado" id="q1"></div>
+            <div class="quadrado" id="q2"></div>
+            <div class="quadrado" id="q3"></div>
+            <div class="quadrado" id="q4"></div>
+            <div class="quadrado" id="q5"></div>
+            <div class="quadrado" id="q6"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Foto de <a href="https://unsplash.com/pt-br/@virussinside?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" class="footer-1">Artiom Vallat</a> na <a href="https://unsplash.com/pt-br/fotografias/plantas-de-sebe-com-flores-roxas-rU_BvpGC8nQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" class="footer-1">Unsplash</a></p> 
+        |
+        <p>Foto de <a href="https://unsplash.com/pt-br/@pawel_czerwinski?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" class="footer-2">Pawel Czerwinski</a> na <a href="https://unsplash.com/pt-br/fotografias/pintura-abstrata-azul-e-branca--vcE6c-UP9E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" class="footer-2">Unsplash</a></p>
+        |
+        <p>Foto de <a href="https://unsplash.com/pt-br/@ghog?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" class="footer-3">Lawrence Kayku</a> na <a href="https://unsplash.com/pt-br/fotografias/fotografia-de-folhas-verdes-ZVKr8wADhpc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" class="footer-3">Unsplash</a></p>
+    </footer>
+</body>
+
+</html>
